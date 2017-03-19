@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>guess-number</title>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="plain">
+		<h1>number guess</h1>
+		<p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+	</div>
+	<div class="input">
+		<label for="guess">enter a guess</label>
+		<input type="text" id="guess" value="">
+		<button id="btn" onclick="checkGuess()">submit guess</button>
+	</div>
+	<div class="result">
+		<p id="result"></p>
+	</div>
+</body>
+</html>
